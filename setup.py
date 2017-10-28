@@ -16,17 +16,17 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.98',
+    version='1.0',
 
-    description='Red Pitaya Python drivers and Jupyter applications',
+    description='Hylocereus Emonica Python drivers and Jupyter applications',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/RedPitaya/RedPitaya',
+    url='https://github.com/jeras/HylocereusEmonica-jupyter',
 
     # Author details
-    author='Red Pitaya',
-    author_email='info@redpitaya.com',
+    author='Iztok Jeras',
+    author_email='iztok.jeras@gmail.com',
 
     # Choose your license
     license='BSD',
@@ -48,5 +48,5 @@ setup(
 
     keywords='oscilloscope generator',
     packages=['redpitaya'],
-    install_requires=['numpy', 'scipy', 'bokeh', 'IPython', 'ipywidgets'],
+    install_requires=['numpy', 'scipy', 'bokeh', 'jupyter-notebook'],
 )
